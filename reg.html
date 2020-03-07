@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body background="2.JPG" style="background-size: cover ; margin: 0px ;">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="main-content">
+        <form class="form-register" method="post" action="connection.php">
+            <div class="form-register-with-email">
+                <div class="form-white-background">
+                    <div>           
+                        <h1>Fill The form</h1>
+                        <img src="6.png" style="margin-left: -200px;">
+                    </div>
+                    
+                    <div class="form-row">
+                        <label><span>Team Name</span><input type="text" name="TName" placeholder=""></label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label><span>Player1 Name</span><input type="text" name="Player1" placeholder=""></label>
+                    </div>
+                    <div class="form-row">
+                        <label><span>Player1 ID</span><input type="text" name="Player1ID" placeholder=""></label>
+                    </div>
+
+                    <div class="form-row">
+                        <label><span>Player2 Name</span><input type="text" name="Player2" placeholder="Skip it, If Single"></label>
+                    </div>
+                    <div class="form-row">
+                        <label><span>Player2 ID</span><input type="text" name="Player2ID" placeholder="Skip it, If Single"></label>
+                    </div>
+
+                    <div class="form-row">
+                        <label><span>Contact No</span><input type="text" name="contact" placeholder="Team Leader Number"></label>
+                    </div>
+
+                    <div class="form-row">
+                         <label>
+                         <span>Category</span><br>
+                         <div class = "radioBox">
+                          <input type="radio" name="Category" value="FacultyS"> Faculty Single<br>
+                         <input type="radio" name="Category" value="BoysS"> Boys Single<br>
+                         <input type="radio" name="Category" value="BoysD"> Boys Double<br>
+                         <input type="radio" name="Category" value="MixD"> Mix Double<br>
+                         </div>
+                         </label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <button type="submit">Continue</button>
+                    </div>
+                </div>       
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
